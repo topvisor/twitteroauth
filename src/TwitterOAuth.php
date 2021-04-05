@@ -520,7 +520,7 @@ class TwitterOAuth extends Config
      * @return string
      * @throws TwitterOAuthException
      */
-    private function oAuthRequest(
+    public function oAuthRequest(
         string $url,
         string $method,
         array $parameters,
